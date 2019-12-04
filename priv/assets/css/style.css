@@ -1,26 +1,32 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:100,900|Open+Sans:400,700';
+@import "https://fonts.googleapis.com/css?family=Lato:100,900|Open+Sans:400,700";
 
 body {
   margin: 0;
-  background: whitesmoke;
-  color: #333;
-  font-family: 'Open Sans', '.SFNSText-Regular', 'Segoe UI', 'Helvetica', 'Lucida Grande', 'Tahoma', 'Yu Gothic UI', 'Malgun Gothic', sans-serif;
+  background: #3f3f3f;
+  color: white;
+  font-family: "Open Sans", ".SFNSText-Regular", "Segoe UI", "Helvetica",
+    "Lucida Grande", "Tahoma", "Yu Gothic UI", "Malgun Gothic", sans-serif;
   font-size: 16px;
 }
 
-a:link, a:active, a:visited { color: #4078c0; text-decoration: none; }
-a:hover { text-decoration: underline }
+a:link,
+a:active,
+a:visited {
+  color: #4078c0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 
-header#top h1
-{
+header#top h1 {
   margin: 0 0 0 -4px;
-  font-family: 'Lato', '.SFNSText-Regular', 'Segoe UI', sans-serif;
+  font-family: "Lato", ".SFNSText-Regular", "Segoe UI", sans-serif;
   font-weight: 100;
   font-size: 80px;
 }
 
-header#top p
-{
+header#top p {
   margin: 0;
   font-weight: bold;
 }
@@ -28,13 +34,17 @@ header#top p
 header#top a:link,
 header#top a:active,
 header#top a:visited,
-header#top a:hover
-{
-  color: #333;
+header#top a:hover {
+  color: white;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 1rem 0;
 }
 
@@ -44,15 +54,17 @@ nav ul {
   list-style: none;
 }
 
-nav ul li { display: inline-block; }
+nav ul li {
+  display: inline-block;
+}
 
 nav ul li:before {
-  content: '|';
+  content: "|";
   padding: 0 1em;
 }
 
 nav ul li:first-of-type:before {
-  content: '';
+  content: "";
   padding: 0;
 }
 
@@ -68,7 +80,9 @@ footer {
   opacity: 0.5;
 }
 
-footer p { margin: 0.5rem 0; }
+footer p {
+  margin: 0.5rem 0;
+}
 
 code {
   font-family: monospace;
@@ -84,7 +98,12 @@ pre code {
   background: whitesmoke;
 }
 
-h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
   color: #333;
   font-weight: bold;
 }
@@ -102,13 +121,12 @@ a:active code {
   padding: 50px;
   width: 900px;
   min-height: 100vh;
-  background: white;
+  background: #3f3f3f;
 }
 
-article h1
-{
+article h1 {
   margin: 0.5rem 0;
-  font-family: 'Lato', '.SFNSText-Regular', 'Segoe UI', sans-serif;
+  font-family: "Lato", ".SFNSText-Regular", "Segoe UI", sans-serif;
   font-weight: 900;
   font-size: 2.5em;
 }
@@ -152,7 +170,7 @@ blockquote p.title {
 }
 
 blockquote.note {
-  background-color: rgba(120, 192, 64, 0.125);
+  background-color: rgba(214, 255, 183, 0.125);
 }
 
 article.list > div > ul {
@@ -178,21 +196,29 @@ p.post-date {
   opacity: 0.8;
 }
 
-span.tags:before { content: '|'; }
+span.tags:before {
+  content: "|";
+}
 
-span.tags a.tag { padding: 0 5px; }
-span.tags a.tag:first-child { padding-left: 0; }
-span.tags a.tag:last-child { padding-right: 0; }
+span.tags a.tag {
+  padding: 0 5px;
+}
+span.tags a.tag:first-child {
+  padding-left: 0;
+}
+span.tags a.tag:last-child {
+  padding-right: 0;
+}
 
 table {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(138, 138, 138);
   border-spacing: 0;
   border-collapse: collapse;
 }
 
 table th,
 table td {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(138, 138, 138);
   padding: 5px 11px;
 }
 
@@ -210,7 +236,8 @@ kbd {
   border: 1px solid #ccc;
   border-radius: 3px;
   box-shadow: 0 2px 0 #ccc;
-  font-family: 'Open Sans', '.SFNSText-Regular', 'Segoe UI', 'Helvetica', 'Lucida Grande', 'Tahoma', 'Yu Gothic UI', 'Malgun Gothic', sans-serif;
+  font-family: "Open Sans", ".SFNSText-Regular", "Segoe UI", "Helvetica",
+    "Lucida Grande", "Tahoma", "Yu Gothic UI", "Malgun Gothic", sans-serif;
   font-size: 0.8em;
 }
 
@@ -222,12 +249,24 @@ ul.serum-toc {
   list-style-type: none;
 }
 
-ul.serum-toc li.indent-0 { margin-left: 0em; }
-ul.serum-toc li.indent-1 { margin-left: 1em; }
-ul.serum-toc li.indent-2 { margin-left: 2em; }
-ul.serum-toc li.indent-3 { margin-left: 3em; }
-ul.serum-toc li.indent-4 { margin-left: 4em; }
-ul.serum-toc li.indent-5 { margin-left: 5em; }
+ul.serum-toc li.indent-0 {
+  margin-left: 0em;
+}
+ul.serum-toc li.indent-1 {
+  margin-left: 1em;
+}
+ul.serum-toc li.indent-2 {
+  margin-left: 2em;
+}
+ul.serum-toc li.indent-3 {
+  margin-left: 3em;
+}
+ul.serum-toc li.indent-4 {
+  margin-left: 4em;
+}
+ul.serum-toc li.indent-5 {
+  margin-left: 5em;
+}
 
 ul.serum-toc li span.number {
   color: #333;
@@ -241,7 +280,7 @@ ul.serum-toc li span.number {
   }
 
   nav ul li:before {
-    content: '';
+    content: "";
     padding: 0;
   }
 
@@ -268,6 +307,10 @@ ul.serum-toc li span.number {
     overflow-x: scroll;
   }
 
-  span.tags { display: block; }
-  span.tags:before { content: ''; }
+  span.tags {
+    display: block;
+  }
+  span.tags:before {
+    content: "";
+  }
 }

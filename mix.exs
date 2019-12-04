@@ -26,13 +26,12 @@ defmodule Serum.Themes.Essence.MixProject do
 
   defp package do
     [
-      name: "serum_theme_essence",
-      description: "Essence is a Serum theme which presents a minimal and clean look.",
-      maintainers: ["Eunbin Jeong"],
+      name: "serum_theme_essence_dark",
+      description: "Essence Dark is a Serum theme which presents a minimal and clean look.",
+      maintainers: ["rasjonell"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/Dalgona/serum-theme-essence",
-        "Website" => "https://dalgona.github.io/serum-theme-essence"
+        "GitHub" => "https://github.com/rasjonell/serum-theme-essence"
       }
     ]
   end
