@@ -20,10 +20,6 @@
       <hr>
       <footer>
         <%= include "footer" %>
-        <p>
-          Powered by <a href="https://github.com/Dalgona/Serum">Serum</a> v<%= Application.spec(:serum, :vsn) %>,
-          with <a href="https://github.com/Dalgona/serum-theme-essence">Essence</a> theme
-        </p>
       </footer>
     </div>
     <script src="<%= asset "js/prism.js" %>"></script>

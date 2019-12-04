@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background: #3f3f3f;
+  background: #080809;
   color: white;
   font-family: "Open Sans", ".SFNSText-Regular", "Segoe UI", "Helvetica",
     "Lucida Grande", "Tahoma", "Yu Gothic UI", "Malgun Gothic", sans-serif;
@@ -12,7 +12,7 @@ body {
 a:link,
 a:active,
 a:visited {
-  color: #4078c0;
+  color: #a9aafb;
   text-decoration: none;
 }
 a:hover {
@@ -86,16 +86,17 @@ footer p {
 
 code {
   font-family: monospace;
-  color: #c04078;
+  color: #ff0060;
 }
 
 pre code {
+  font-family: "Fira Code", "monospace";
   display: block;
   box-sizing: border-box;
   padding: 0.3rem 0.4rem;
   border-left: 4px solid #ddd;
-  color: #333;
-  background: whitesmoke;
+  color: #aeffa3;
+  background: #333;
 }
 
 h1 code,
@@ -104,7 +105,7 @@ h3 code,
 h4 code,
 h5 code,
 h6 code {
-  color: #333;
+  color: rgb(125, 125, 125);
   font-weight: bold;
 }
 
@@ -112,7 +113,7 @@ a:link code,
 a:hover code,
 a:visited code,
 a:active code {
-  color: #4078c0;
+  color: #a9aafb;
 }
 
 #wrapper {
@@ -121,7 +122,7 @@ a:active code {
   padding: 50px;
   width: 900px;
   min-height: 100vh;
-  background: #3f3f3f;
+  background: #080809;
 }
 
 article h1 {
@@ -269,7 +270,7 @@ ul.serum-toc li.indent-5 {
 }
 
 ul.serum-toc li span.number {
-  color: #333;
+  color: white;
   margin-right: 0.5em;
 }
 
