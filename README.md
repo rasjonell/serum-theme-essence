@@ -2,8 +2,7 @@
 
 **Essence Dark** is a Fork of [Essence](https://github.com/Dalgona/serum-theme-essence) Serum theme which presents a minimal and clean look.
 
-This theme was extracted from [the official Serum
-website](https://dalgona.github.io/Serum), and extended for general use.
+Check out the live demo on my [blog](https://rasjonell.tech/)
 
 ## Installation
 
