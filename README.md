@@ -1,6 +1,6 @@
-# Essence
+# Essence Dark
 
-**Essence** is a Serum theme which presents a minimal and clean look.
+**Essence Dark** is a Fork of [Essence](https://github.com/Dalgona/serum-theme-essence) Serum theme which presents a minimal and clean look.
 
 This theme was extracted from [the official Serum
 website](https://dalgona.github.io/Serum), and extended for general use.
@@ -13,8 +13,8 @@ Add the theme package to your list of dependencies in `mix.exs`:
 def deps do
   [
     {:serum, "~> 1.1"},
-    {:serum_theme_essence, "~> 1.0"},
-    # ...
+    {:serum_theme_essence,
+       git: "https://github.com/rasjonell/serum-theme-essence.git", tag: "1.0.2"}
   ]
 end
 ```
